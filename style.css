@@ -11,9 +11,7 @@
     position: absolute;
     padding-left: 15px;
     padding-right: 15px;
-    width: 960px;
     line-height: 20px;
-    
 }
 
 body {
@@ -24,14 +22,16 @@ body {
     font-size: 18px;
     margin-left: 0px;
     padding-top: 10px;
-    
+    width: 960px;
 }
 
 header {
     background-color: #ebebeb;
     color: #777;
-    padding: 15px;
-    margin-top: 15px;
+    padding: 30px;
+    margin-top: 0px;
+    margin-left: 100px;
+    width: 800px;
     
     text-align: center;
 }
@@ -39,16 +39,19 @@ header {
 .nav {
     background-color: #ebebeb;
     color: #777;
-    padding: 15px;
-    margin-top: 15px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-left: 100px;
     text-align: center;
+    width: 800px;
+
 }
 
 .section {
-    width: 350px;
+    width: 435px;
     margin-bottom: 15px;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 100px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
@@ -69,31 +72,25 @@ header {
     padding: 15px;
     margin-top: 15px;
     text-align: center;
-
-    
 }
 
 
 .h1,h2,h3 { 
     background-color: #ebebeb;
     color: #777;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-bottom: 30px;
+    padding: 15px;
     margin-top: 15px;
     display: block;
     text-align: center;
     line-height: 20px;
-    
 }
 
 .p {
     background-color: #ebebeb;
     color: #777;
     padding: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 60px;
+    margin-bottom: 5px;
     margin-left: 0;
     margin-right: 0;
     display: block;
@@ -111,15 +108,22 @@ header {
     padding-bottom: 15px;
     line-height: 20px;
     text-align: center;
-    }
+    width: 350px;
+    height: 250px;
+    margin: 15px;
+    
+    
+}
 
 .footer {
     background-color: #ebebeb;
     color: #777;
     clear: both;
     overflow: auto;
-    padding: 15px;
+    padding: 30px;
     margin-bottom: 15px;
     margin-top: 15px;
+    margin-left: 100px;
+    width: 800px;
 
 }
